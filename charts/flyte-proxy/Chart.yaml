@@ -1,0 +1,27 @@
+apiVersion: v2
+name: flyte-proxy
+description: Chart for Flyte envoy proxy
+type: application
+version: v1.14.1-test
+annotations:
+  artifacthub.io/category: machine-learning
+  artifacthub.io/changes: |
+    - kind: changed
+      description: envoy proxy for flyte as a separtate component
+      links:
+        - name: flyte-proxy
+          url: https://github.com/olegsmetanin/helm-charts
+
+kubeVersion: "^1.16.0-0"
+home: https://flyte.org/
+icon: https://artwork.lfaidata.foundation/projects/flyte/horizontal/color/flyte-horizontal-color.png
+keywords:
+  - flyte
+  - ml
+sources:
+  - https://github.com/flyteorg/flyte
+  - https://github.com/olegsmetanin/helm-charts
+maintainers:
+  - name: olegsmetanin
+    email: oleg@smetan.in
+
